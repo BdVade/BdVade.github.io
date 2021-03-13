@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+body{
+    font-family: 'Bilbo', cursive;
+    font-size: x-large;
+    background-image: url(images/361-3612977_website-background-png-tech-background-image-for-website.png);
+    color: black;
+}
+
+header{
+    
+    height: 600px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 80vw;
+    margin-left: 10%;
+
+    
+}
+
+
+
+
+header #About{
+
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    font-family: 'Bilbo', cursive;    
+}
+
+
+header ul{
+    display: flex;
+    width: 500px;
+    text-align: right;
+    position: sticky;
+    
+}
+
+header ul li {
+    margin: 10px;
+    /* color: white; */
+}
+
+main{
+    
+}
+
+
+#skills{
+    display: flex;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+#skills div{
+    /* border: 1px solid salmon; */
+    /* border-radius: 0 10% 0 10%; */
+    height: 300px;
+    width: 30vw;
+    margin: 30px 50px 50px 50px;
+    justify-content: center;
+    background-color: orange;
+    padding: 30px;
+    opacity: 0.8;
+    /* overflow-y: hidden; */
+    transition: 1s ease;
+
+}
+
+#skills div:hover{
+    transform: scale(1.2);
+    
+}
+
+#experience{
+    display: flex;
+    flex-wrap: wrap; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 80%;
+    margin-left: 10%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#experience div{
+    background-color:  rgb(0, 83, 113);
+    margin: 15px;
+    width: 30%;
+    overflow: hidden;
+    height: 50vh;
+}
+
+#experience div p{
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(0, 83, 113);
+    height: 30vh;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+    transition: 1s ease;
+
+}
+
+footer img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
